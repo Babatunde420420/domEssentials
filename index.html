@@ -1,22 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YouthPlus Weekly Digest</title>
+
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
-    >
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <h1>Hello, world!</h1>
+    <!-- ===== Header Section ===== -->
+    <header class="newsletter-header text-center text-white">
+      <div class="container-fluid px-0">
+        <div class="row gx-0 align-items-center">
+          <div class="col-12">
+            <a
+              href="https://youthplus.ng"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/Frame1.png"
+                alt="YouthPlus Hero"
+                class="newsletter-logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== Main Content ===== -->
+    <main class="newsletter-body py-5">
+      <div class="container">
+        <h1 class="fw-bold mb-4">Hello YouthPlus Tribe!</h1>
+
+        <p class="newstext fs-2">
+          If you have been on social media this week, you know the
+          <strong>AMVCA 2025</strong> just wrapped up, the fashion and the red
+          carpet drama are still the hottest topics everywhere.
+        </p>
+
+        <p class="newstext fs-2">
+          And then there's the <strong>JAMB 2025</strong> result. Who would
+          imagine that at this time there are still people who would fail JAMB
+          in 2025? Omo e go far oo! Minister of Education says anti-cheating
+          measures are working, JAMB says they are investigating the matter, and
+          we are not sure who to believe.
+        </p>
+
+        <p class="newstext fs-2">
+          As always, we're here to bring you the gist that matters — culture,
+          drama, and all the noise in-between. Stay locked in, stay curious, and
+          stay updated... Nigeria never sleeps, and neither do we.
+        </p>
+
+        <!-- ===== Top Posts Section ===== -->
+        <section class="top-posts mt-5">
+          <h2 class="top-posts-title text-info fw-bold fs-1">Top Posts</h2>
+
+          <h3 class="post-headline mt-3 fw-semibold">
+            Mistakes aren’t the end, they’re just the beginning
+          </h3>
+          <div class="container">
+            <img
+              src="img/youthpost.png"
+              alt="youthpost"
+              class="img-fluid post-image w-75 h-25"
+            />
+          </div>
+          <a href="#" class="btn btn-success mt-4 btn-cta">
+            Click Here To Watch →
+          </a>
+        </section>
+        <div class="mt-4">
+          <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="job-card p-4 border-0 mx-auto">
+              <div class="d-flex align-content-center mb-3">
+                <div class="icon-wrapper me-3">
+                  <img src="img/Icon.png" alt="icon" class="icon-img" />
+                </div>
+                <h5 class="fw-bold fs-2">Job Opportunities for You</h5>
+              </div>
+
+              <ul class="list-unstyled ms-4 mb-4 fs-4 fw-light">
+                <li class="mb-2">• Security Manager</li>
+                <li class="mb-2">• Facility Manager</li>
+                <li class="mb-2">• Operational Manager</li>
+                <li>• Senior HRBP</li>
+              </ul>
+
+              <a
+                href="#"
+                class="btn btn-success rounded-pill w-75 m-0 fw-light d-block fs-3"
+              >
+                Apply now on YouthPlus
+                <i class="bi bi-box-arrow-up-right mt-0 mb-1 fs-0"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h6 class="blog-updates mt-5 fw-bold fs-1">Blogpost Updates</h6>
+          <h6 class="blognews fs-1 fw-medium">News</h6>
+          <div class="blog-img">
+            <img
+              src="img/blog.png"
+              alt="Blogpost"
+              class="blog-image mt-3 w-75"
+            />
+            <h6 class="blogtexts mt-3 fs-3 fw-medium">
+              JAMB reschedules UTME for affected 379,997 S’East, Lagos
+              candidates.
+            </h6>
+            <a href="#" class="btn btn-success mt-4 btn-cta">
+              Continue Reading →
+            </a>
+          </div>
+        </div>
+        <div class="container">
+          <h6 class="blog-updates mt-5 fw-medium fs-1">Entertainment</h6>
+          <div class="blog-img">
+            <img
+              src="img/entertainment.png"
+              alt="Blogpost"
+              class="blog-image mt-3 w-75"
+            />
+            <h6 class="blogtexts mt-3 fs-3 fw-medium">
+              “If sight was leading me, I wouldn't marry my wife” - Nigerian
+              Pastor sparks reactions.
+            </h6>
+            <a href="#" class="btn btn-success mt-4 btn-cta">
+              Continue Reading →
+            </a>
+          </div>
+        </div>
+      </div>
+      <section class="container mt-5">
+        <div class="byetexts">
+          <p class="fs-4 d-block w-75">
+            That’s it for the week tribe! Stay tuned for more updates, awesome
+            contents, opportunities, and loads of fun! 
+          </p>
+
+          <p class="fs-3 fw-bold">See you next week!! 🚀</p>
+
+          <p class="fs-4">Cheers,<br />YouthPlus</p>
+        </div>
+      </section>
+      <section class="container mt-4">
+        <div class="footerlogo">
+          <img src="img/footerlogo.png" alt="footerlogo" />
+        </div>
+      </section>
+      <footer class="container-fluid px-0 mb-0 mt-5">
+        <div class="row gx-0">
+          <div class="col-12 px-0">
+            <img
+              src="img/footerimage.png"
+              alt="footerimage"
+              class="img-fluid w-100"
+            />
+          </div>
+        </div>
+      </footer>
+
+      <!-- <footer class="container mt-1">
+        <div class="footerlogo">
+          <img src="img/footerlogo.png" alt="footerlogo" />
+        </div>
+        <div class="container-fluid mt-5 px-0 w-100">
+          <div class="row gx-0 align-content-center">
+            <div class="col-12 px-0">
+              <img src="img/footerimage.png" alt="footerimage" class="img-fluid w-100">
+            </div>
+          </div>
+        </div>
+      </footer> -->
+    </main>
+
+    <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
